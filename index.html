@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Hachi+Maru+Pop&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Mood Tracker</title>
+</head>
+<body>
+    <iframe class="music" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3PRbKFXdwus5Hdn8lJ2KTh?utm_source=generator" 
+    width="50%" 
+    height="50" 
+    frameBorder="0"
+     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+     loading="lazy"></iframe>
+
+    <h1>Daily Mood Diary</h1>
+    <h3>Current Mood: <span id="moodDisplay"></span></h3>
+    <select id="moods">
+        <option value=""> &#127917 Pick your current mood &#127917 </option>
+        <option value="&#128515"> &#128515 </option>
+        <option value="&#128532"> &#128532 </option>
+        <option value="&#128528"> &#128528 </option>
+        <option value="&#128530"> &#128530 </option>
+        <option value="&#128526"> &#128526 </option>
+        <option value="&#128554"> &#128554 </option>
+        <option value="&#128513"> &#128513 </option>
+        <option value="&#128520"> &#128520 </option>
+        <option value="&#128527"> &#128527 </option>
+        <option value="&#128533"> &#128533 </option>
+        <option value="&#128535"> &#128535 </option>
+        <option value="&#128546"> &#128546 </option>
+    </select>
+    <section>
+        <textarea id="note" placeholder="Why are you feeling this way today?"></textarea>
+        <button id="submit-btn" >SUBMIT</button>
+    </section>
+    <section id="entryContainer">
+
+    </section>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
